@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    /* background: radial-gradient(99.12% 99.12% at 50% 50%, #C6C6C6 0%, rgba(254, 254, 254, 0) 100%); */
+    background: rgb(180,180,180);
+    background: radial-gradient(circle, rgba(180,180,180,1) 0%, rgba(237,237,237,1) 35%, rgba(255,255,255,1) 100%);
+  }
+  canvas {
+    display: block;
+mix-blend-mode: multiply;  
+}
+  main{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1{
+       position: absolute; 
+       font-family:'Courier New', Courier, monospace;
+       font-style: normal;
+       font-weight: 700;
+       font-size: 32px;
+       line-height: 44px;
+       text-align: center;
+       letter-spacing: 0.1em;
+       color: #8E8D92;
+    }
